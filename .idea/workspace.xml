@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="85b8f5ab-503a-4330-a559-53b33045608c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/studentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/studentTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studentAttendance.iml" beforeDir="false" afterPath="$PROJECT_DIR$/studentAttendance.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/studentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/studentTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,13 +33,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/studentTest.java">
+        <entry file="file://$PROJECT_DIR$/src/studentTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1165">
-              <caret column="7" selection-start-column="7" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="102">
+              <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -61,8 +57,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Student.java" />
-        <option value="$PROJECT_DIR$/src/studentTest.java" />
         <option value="$PROJECT_DIR$/tests/studentTest.java" />
+        <option value="$PROJECT_DIR$/src/studentTest.java" />
       </list>
     </option>
   </component>
@@ -90,11 +86,6 @@
               <item name="studentAttendance" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="studentAttendance" type="b2602c69:ProjectViewProjectNode" />
-              <item name="studentAttendance" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -108,11 +99,11 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578317944248" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578323486953" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -131,7 +122,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.studentTest.highVeryGood">
+  <component name="RunManager" selected="JUnit.studentTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="studentAttendance" />
@@ -190,8 +181,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.studentTest.highVeryGood" />
         <item itemvalue="JUnit.studentTest" />
+        <item itemvalue="JUnit.studentTest.highVeryGood" />
         <item itemvalue="JUnit.studentTest.highAverage" />
         <item itemvalue="JUnit.studentTest.belowZero" />
       </list>
@@ -223,6 +214,15 @@
     <history-entry file="studentTest - 2020.01.06 at 13h 32m 30s.xml">
       <configuration name="studentTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="studentTest_highVeryGood - 2020.01.06 at 13h 39m 08s.xml">
+      <configuration name="studentTest.highVeryGood" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="studentTest_highVeryGood - 2020.01.06 at 15h 10m 54s.xml">
+      <configuration name="studentTest.highVeryGood" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="studentTest - 2020.01.06 at 15h 11m 00s.xml">
+      <configuration name="studentTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -241,8 +241,8 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.38683128" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32784638" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38683128" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -271,23 +271,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/studentTest.java">
+    <entry file="file://$PROJECT_DIR$/tests/studentTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+        <state relative-caret-position="340">
+          <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/studentTest.java">
+    <entry file="file://$PROJECT_DIR$/src/studentTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1165">
-          <caret column="7" selection-start-column="7" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="102">
+          <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
         </state>
       </provider>
     </entry>

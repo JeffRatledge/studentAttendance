@@ -1,0 +1,21 @@
+pipeline
+{
+    agent any
+    stages {
+        stage('Fetch') {
+            steps {
+                echo "fetch data from orgin"
+            }
+        }
+        stage('Build') {
+            steps {
+                bat 'mvn clean -f "C:\\Users\\Fiver\\IdealProjects\\studentAttendance\\src\\studentTest"'
+            }
+        }
+        stage('Test') {
+            steps {
+                bat 'mvn package -f "C:\\Users\\Fiver\\IdealProjects\\studentAttendance\\src\\studentTest"'
+            }
+        }
+    }
+}
