@@ -4,17 +4,17 @@ pipeline
     stages {
         stage('Fetch') {
             steps {
-                echo "fetch data from orgin"
+                git url:'https://github.com/JeffRatledge/studentAttendance'
             }
         }
         stage('Build') {
             steps {
-                bat 'mvn clean -f "C:\\Users\\Fiver\\IdealProjects\\studentAttendance\\src\\studentTest"'
+                bat 'javac -cp junit-4.13.jar; src/Student.java src/studentTest.java'
             }
         }
         stage('Test') {
             steps {
-                bat 'mvn package -f "C:\\Users\\Fiver\\IdealProjects\\studentAttendance\\src\\studentTest"'
+                bat 'java -cp junit-4.13.jar;hamcrest-core-1.3.jar; org.junit.runner.JUnitCore src/studentTest'
             }
         }
     }
